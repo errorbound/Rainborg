@@ -98,6 +98,8 @@ void printTimingResults(){
     std::cout << "Total time: " << totalTime << " ms" << std::endl;
     std::cout << "Avg. frame time: " << avgTime << " ms "
               << "(" << 1000.0f/avgTime << ") fps" << std::endl;
+    std::cout << "start time: " << startTime.tv_sec << std::endl;
+    std::cout << "end time: " << endTime.tv_sec << std::endl;
 }
 
 
